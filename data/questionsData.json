@@ -1,0 +1,109 @@
+{
+    "quizData": [
+        {
+            "question": "What is the largest planet in our solar system?",
+            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+            "correctAnswer": "Jupiter",
+            "points": 10
+        },
+        {
+            "question": "Which gas is most abundant in Earth's atmosphere?",
+            "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+            "correctAnswer": "Nitrogen",
+            "points": 10
+        },
+        {
+            "question": "Which planet is known as the 'Red Planet'?",
+            "options": ["Venus", "Mars", "Saturn", "Jupiter"],
+            "correctAnswer": "Mars",
+            "points": 10
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "options": ["Au", "Ag", "Fe", "Cu"],
+            "correctAnswer": "Au",
+            "points": 10
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Heart", "Lungs", "Liver", "Skin"],
+            "correctAnswer": "Skin",
+            "points": 10
+        },
+        {
+            "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+            "options": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"],
+            "correctAnswer": "Carbon Dioxide",
+            "points": 10
+        },
+        {
+            "question": "What is the powerhouse of the cell?",
+            "options": [
+                "Nucleus",
+                "Mitochondria",
+                "Ribosome",
+                "Endoplasmic Reticulum"
+            ],
+            "correctAnswer": "Mitochondria",
+            "points": 10
+        },
+        {
+            "question": "Who wrote the play 'Romeo and Juliet'?",
+            "options": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Jane Austen",
+                "Leo Tolstoy"
+            ],
+            "correctAnswer": "William Shakespeare",
+            "points": 10
+        },
+        {
+            "question": "What is the chemical symbol for water?",
+            "options": ["Wa", "Wt", "W", "H2O"],
+            "correctAnswer": "H2O",
+            "points": 10
+        },
+        {
+            "question": "What is the largest mammal in the world?",
+            "options": ["Elephant", "Giraffe", "Hippopotamus", "Blue Whale"],
+            "correctAnswer": "Blue Whale",
+            "points": 10
+        },
+        {
+            "question": "What is the capital of Japan?",
+            "options": ["Kyoto", "Osaka", "Tokyo", "Hiroshima"],
+            "correctAnswer": "Tokyo",
+            "points": 10
+        },
+        {
+            "question": "Which planet is known as the 'Morning Star'?",
+            "options": ["Mercury", "Venus", "Mars", "Jupiter"],
+            "correctAnswer": "Venus",
+            "points": 10
+        },
+        {
+            "question": "In which year did Christopher Columbus first arrive in the Americas?",
+            "options": ["1492", "1520", "1456", "1510"],
+            "correctAnswer": "1492",
+            "points": 10
+        },
+        {
+            "question": "What is the tallest mountain in the world?",
+            "options": [
+                "Mount Kilimanjaro",
+                "Mount Everest",
+                "Mount Fuji",
+                "Mount McKinley"
+            ],
+            "correctAnswer": "Mount Everest",
+            "points": 10
+        },
+        {
+            "question": "What is the chemical symbol for oxygen?",
+            "options": ["O2", "O3", "O", "OX"],
+            "correctAnswer": "O",
+            "points": 10
+        }
+    ]
+}
