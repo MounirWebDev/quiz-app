@@ -4,6 +4,7 @@ import Error from './components/failed/Error';
 import Loader from './components/loader/Loader';
 import QuestionList from './components/questionList/QuestionList';
 import QuestionEnd from './components/questionEnd/QuestionEnd';
+import { quizData } from '../data/questionsData.json';
 
 const initialState = {
     questions: [],
@@ -38,7 +39,6 @@ function reducer(state, action) {
                 timer: state.timer--,
             };
         case 'nextQuestion':
-            console.log(state.currentQuestionIndex);
             return {
                 ...state,
                 currentQuestionIndex: state.currentQuestionIndex++,
@@ -98,21 +98,23 @@ function App() {
 
     // useEffects Hooks
     useEffect(() => {
-        async function getQuizData() {
-            try {
-                const res = await fetch('http://localhost:9000/quizData');
-                if (!res.ok) {
-                    dispatch({ type: 'error' });
-                }
+        // async function getQuizData() {
+        //     try {
+        //         const res = await fetch('http://localhost:9000/quizData');
+        //         if (!res.ok) {
+        //             dispatch({ type: 'error' });
+        //         }
 
-                const quizData = await res.json();
-                dispatch({ type: 'getQuizData', payload: quizData });
-            } catch (err) {
-                console.error(err);
-            }
-        }
+        //         const quizData = await res.json();
+        //         console.log(quizData)
+        //         dispatch({ type: 'getQuizData', payload: quizData });
+        //     } catch (err) {
+        //         console.error(err);
+        //     }
+        // }
 
-        getQuizData();
+        // getQuizData();
+        dispatch({ type: 'getQuizData', payload: quizData });
     }, []);
 
     return (

@@ -69,3 +69,7 @@ button {
     justify-content: space-between;
     align-items: center;
 }
+
+.disabled-elements {
+    pointer-events: none;
+}

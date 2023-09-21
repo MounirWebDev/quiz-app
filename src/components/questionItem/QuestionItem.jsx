@@ -3,8 +3,9 @@ function QuestionItem({ option, dispatch, userAnswer, correctAnswer }) {
         <button
             className={`option ${
                 userAnswer === option.trim().toLowerCase() && 'selected'
-            } ${correctAnswer === option.trim().toLowerCase() && 'correct'}`}
-            disabled={userAnswer}
+            } ${correctAnswer === option.trim().toLowerCase() && 'correct'} ${
+                userAnswer && 'disabled-elements '
+            }`}
             onClick={() =>
                 dispatch({
                     type: 'hasAnswered',
